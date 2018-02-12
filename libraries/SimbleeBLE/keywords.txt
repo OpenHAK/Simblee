@@ -1,0 +1,51 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SimbleeBLE	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+customUUID	KEYWORD2
+deviceName	KEYWORD2
+advertisementData	KEYWORD2
+manufacturerName	KEYWORD2
+modelNumber	KEYWORD2
+serialNumber	KEYWORD2
+hardwareRevision	KEYWORD2
+softwareRevision	KEYWORD2
+iBeacon	KEYWORD2
+iBeaconUUID	KEYWORD2
+iBeaconMajor	KEYWORD2
+iBeaconMinor	KEYWORD2
+iBeaconMeasuredPower	KEYWORD2
+advertisementInterval	KEYWORD2
+txPowerLevel	KEYWORD2
+radioActive	KEYWORD2
+
+begin	KEYWORD2
+end KEYWORD2
+send	KEYWORD2
+sendByte	KEYWORD2
+sendInt	KEYWORD2
+sendFloat	KEYWORD2
+
+SimbleeBLE_onAdvertisement	KEYWORD2
+SimbleeBLE_onRssi		KEYWORD2
+SimbleeBLE_onConnect	KEYWORD2
+SimbleeBLE_onDisconnect	KEYQORD2
+SimbleeBLE_onReceive	KEYWORD2
+
+SimbleeBLE_advdata	KEYWORD2
+SimbleeBLE_advdata_len	KEYWORD2
+SimbleeBLE_srdata	KEYWORD2
+SimbleeBLE_srdata_len	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################

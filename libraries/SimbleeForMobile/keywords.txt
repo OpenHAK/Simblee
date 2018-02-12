@@ -1,0 +1,124 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SimbleeForMobile	KEYWORD1
+event_t	KEYWORD1
+SFM_SOCKET	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+ui	KEYWORD2
+ui_event	KEYWORD2
+
+rgb	KEYWORD2
+rgba	KEYWORD2
+
+domain	KEYWORD2
+baseline	KEYWORD2
+
+screenWidth	KEYWORD2
+screenHeight	KEYWORD2
+remoteDeviceType	KEYWORD2
+
+# Device Information strings
+manufacturerName	KEYWORD2
+modelNumber	KEYWORD2
+serialNumber	KEYWORD2
+hardwareRevision	KEYWORD2
+softwareRevision	KEYWORD2
+
+screen	KEYWORD2
+
+connected	KEYWORD2
+active  KEYWORD2
+updatable	KEYWORD2
+
+begin	KEYWORD2
+process	KEYWORD2
+end	KEYWORD2
+
+showScreen	KEYWORD2
+
+beginScreen	KEYWORD2
+
+drawRect	KEYWORD2
+drawText	KEYWORD2
+imageSource	KEYWORD2
+drawImage	KEYWORD2
+drawButton	KEYWORD2
+drawSwitch	KEYWORD2
+drawSegment	KEYWORD2
+drawSlider	KEYWORD2
+drawStepper	KEYWORD2
+drawTextField	KEYWORD2
+
+setVisible	KEYWORD2
+setEnabled	KEYWORD2
+setEvents	KEYWORD2
+
+updateX	KEYWORD2
+updateY	KEYWORD2
+updateW	KEYWORD2
+updateH	KEYWORD2
+updateOrigin	KEYWORD2
+updateSize	KEYWORD2
+updateRect	KEYWORD2
+updateColor	KEYWORD2
+updateColor2	KEYWORD2
+
+updateValue	KEYWORD2
+updateText	KEYWORD2
+
+endScreen	KEYWORD2
+
+SimbleeForMobile_onAdvertisement	KEYWORD2
+SimbleeForMobile_onRssi		KEYWORD2
+SimbleeForMobile_onConnect	KEYWORD2
+SimbleeForMobile_onDisconnect	KEYQORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+BLACK	LITERAL1
+RED	LITERAL1
+GREEN	LITERAL1
+BLUE	LITERAL1
+YELLOW	LITERAL1
+MAGENTA	LITERAL1
+CYAN	LITERAL1
+WHITE	LITERAL1
+GRAY	LITERAL1
+CLEAR	LITERAL1
+
+JPG	LITERAL1
+PNG	LITERAL1
+TIF	LITERAL1
+BMP	LITERAL1
+ICO	LITERAL1
+CUR	LITERAL1
+XBM	LITERAL1
+
+COLOR_WHEEL	LITERAL1
+
+BOX_TYPE	LITERAL1
+TEXT_TYPE	LITERAL1
+
+EVENT_PRESS	LITERAL1
+EVENT_DRAG	LITERAL1
+EVENT_RELEASE	LITERAL1
+EVENT_POSITION	LITERAL1
+EVENT_COLOR	LITERAL1
+PORTRAIT	LITERAL1
+LANDSCAPE	LITERAL1
+
+SFM_MAX_SOCK_NUM	LITERAL1
+
+REMOTE_DEVICE_OS_UNKNOWN	LITERAL1
+REMOTE_DEVICE_OS_IOS	LITERAL1
+REMOTE_DEVICE_OS_ANDROID	LITERAL1

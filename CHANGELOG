@@ -1,0 +1,91 @@
+CHANGELOG
+
+V 1.1.4
+  - Added sketches from Simblee Video tutorials
+  - Added Simblee_ULPDelay_Exit(), which can be called from a callback to make Simblee_ULPDelay() exit in
+    the loop.  Callbacks include SimbleeBLE_onConnect(), SimbleeBLE_onReceive(), etc
+  - Fix first byte issue with Serial Monitor at 115200 baud.
+
+v 1.1.3
+  - Added ams AS5601,AS6200,CCS811,ENS210,TMG4903 sensor support
+
+v 1.1.2
+  - Added wire.end()
+  - Added RFD77804_Simblee_ToF_Sample_Code example from video
+  - Added SPI Slave support
+
+v 1.1.1
+  - Fixed issue with SimbleeAESCOM counter example
+  - Fixed issue with SimbleeForMobile with image numbers > 7
+  - Fixed issue with WiFi enable/disable not working
+  - Fixed issue with SimbleeForMobile multiple screens and SimbleeCloud
+  - Update to pgmspace.h required for WiFi support
+  - Fixed issue with SimbleeCloud reporting active on some failure conditions
+  - Added guard, so loop can just be "cloud.process()"
+  - Added disconnect() to SimbleeCloud
+  - Force SimbleeForMobileClient.cpp to closeSocket on connection failure
+  - Cleanup a return code issue for SimbleeForMobileClient
+  - Missing stop() in SimbleeForMobile.connect()
+  - Added resetReason and watchDogTimer support
+  - SPI enhancements (double buffered transfer16, block transfer, and functions for setting pin assignments)
+  - Arduino sketch/export compiled binary support
+  - Added SimbleeToF library
+  - To free up a full 8-bit port, SPI_INTERFACE_2 pins were changed
+    from: 
+    #define PIN_SPI_SS_2           (14u)
+    #define PIN_SPI_MOSI_2         (13u)
+    #define PIN_SPI_MISO_2         (20u)
+    #define PIN_SPI_SCK_2          (10u)
+    to:
+    #define PIN_SPI_SS_2           (20u)
+    #define PIN_SPI_MOSI_2         (23u)
+    #define PIN_SPI_MISO_2         (21u)
+    #define PIN_SPI_SCK_2          (24u)
+    in variants.h
+    Use SPI2.setSCK(int _pinSCK), SPI2.setMOSI(int _pinMOSI), SPI2.setMISO(int _pinMISO) to override at runtime
+
+v 1.1.0
+  - Android SimbleeForMobile launch
+  - Please download the latest version of SimbleeForMobile from the Apple AppStore
+    for use with this release!
+    (if you get a blank white screen on your iOS device after connection, that
+     means that you are not using the latest SimbleeForMobile app)
+  - SimbleeForMobile uses a virtual screen size of 320x568 and the same font on
+    iOS and Android.  This allows your SimbleeForMobile user interfaces to
+    appear as similar as possible on iOS and Android devices.  New examples have
+    been added, and some existing examples updated to demonstrate new features.
+    Some minor user interface corrections may be required.
+  - Removed "advertising:" when Simblee module found during scanning
+  - Allow out of range Simblee modules to be deleted from scanning screen
+  - Fixed issue fetching large amounts of data from the internet
+  - Fixed SimbleeForMobile issue with transparent rectangles
+  - Added SimbleeForMobile setEnabled function and remoteDeviceType flag.
+  - Fixed SimbleeForMobile Access Network switch in iOS Settings
+  - Fix for loader.bat issue with paths with spaces (thanks Per Tillisch)
+  - Fixed issue with pinWakeCallback and two pins triggering on low
+  - Fixed issue with VDD_1_3_PS defined twice (use VDD1_3_PS for analogSelection)
+  - Enable C++11 support (thanks focalintent)
+  - Fix Print::printf("%f") with correct digits (thanks ShenggaoZhu)
+  - Fix to SimbleeAES for CCM NONCE: 39bit packet counter and direction bit
+    (thanks Victor Demchenko)
+
+v 1.0.3
+  - Fix for pinWake LOW
+  - Fix for SimbleeCloud for supporting other Ethernet/WiFi clients
+  - SPI Transaction and useInterrupt support for better compatibility
+  - support for both SPI and Wire peripherals
+  - Simblee_pinWakeVoidCallback() support for better attachInterrupt() compatibility
+    note: prior calls to attachInterrupt() need to be changed to dynamic_attachInterrupt()!
+  - WString added support for standard c_str()
+
+v 1.0.2
+  - Fix for flash erase and flash write
+  - Fix for Simblee BLE power consumption
+  - RFDLoader support for other toolchains
+
+v 1.0.1
+  - Changes for Arduino 1.6.6
+  - Fix for osx/linux permissions
+
+v 1.0.0
+  - Initial release

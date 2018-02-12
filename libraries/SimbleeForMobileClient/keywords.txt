@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+SimbleeForMobileClient	KEYWORD1
+SFM_SOCKET  KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+status	KEYWORD2
+connect	KEYWORD2
+write	KEYWORD2
+available	KEYWORD2
+read	KEYWORD2
+peek	KEYWORD2
+flush	KEYWORD2
+stop	KEYWORD2
+connected	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+SFM_MAX_SOCK_NUM	LITERAL1
+CLOSED	LITERAL1
+INIT	LITERAL1

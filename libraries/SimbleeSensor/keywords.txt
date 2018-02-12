@@ -1,0 +1,67 @@
+########################################################
+# Syntax Coloring Map for Simblee Sensor Library       #
+########################################################
+# Class
+###################################################################
+
+Simblee_CCS811	KEYWORD1
+Simblee_AS5601	KEYWORD1
+Simblee_AS6200	KEYWORD1
+Simblee_ENS210	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin KEYWORD2
+
+
+#CCS811
+readTVOC	KEYWORD2
+readECO2	KEYWORD2
+readAll	KEYWORD2
+readRawADC KEYWORD2
+readRawCurrent KEYWORD2
+setEnvData KEYWORD2
+setThresholds KEYWORD2
+readHWID KEYWORD2
+readStatus KEYWORD2
+readErrorID KEYWORD2
+
+#AS5601
+readRawAngle	KEYWORD2
+readAngle	KEYWORD2
+readAngleInDegrees	KEYWORD2
+readMagnitude KEYWORD2
+readAGC KEYWORD2
+readZMCO KEYWORD2
+setConfig KEYWORD2
+readStatus KEYWORD2
+detectMagnet KEYWORD2
+setABM KEYWORD2
+setPushbutton KEYWORD2
+setZposition KEYWORD2
+burnAngle KEYWORD2
+burnSetting KEYWORD2
+
+#AS6200
+readRawTemperature KEYWORD2
+readTemperatureF KEYWORD2
+readTemperatureC KEYWORD2
+setConfig KEYWORD2
+setThresholds KEYWORD2
+
+#ENS210
+readTemp	KEYWORD2
+readHumidity	KEYWORD2
+readAll	KEYWORD2
+setTempContinuous KEYWORD2
+setHumidityContinuous KEYWORD2
+readStatus KEYWORD2
+readPartID KEYWORD2
+readUID KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+

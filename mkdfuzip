@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if [ -n "$1" ]
+then
+        nrfutil dfu genpkg $1.zip --application $1.hex --application-version 0xffff --dev-revision 0xffff --dev-type 0xffff --sd-req 0xfffe
+
+else
+        echo Usage: $0 APP_NAME_REQRUIRED
+fi

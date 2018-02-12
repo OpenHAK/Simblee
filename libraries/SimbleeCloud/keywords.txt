@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+SimbleeCloud	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+myESN	KEYWORD2
+userID	KEYWORD2
+active  KEYWORD2
+connect KEYWORD2
+send    KEYWORD2
+process KEYWORD2
+countAsync  KEYWORD2
+
+SimbleeClous_onInitial  KEYWORD2
+SimbleeCloud_onReceive KEYWORD2
+SimbleeCloud_onCountResult  KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################

@@ -1,0 +1,50 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Simblee_ULPDelay	KEYWORD2
+Simblee_pinWake	KEYWORD2
+Simblee_pinWoke	KEYWORD2
+Simblee_resetPinWake	KEYWORD2
+Simblee_pinWakeCallback	KEYWORD2
+Simblee_systemReset	KEYWORD2
+Simblee_systemOff	KEYWORD2
+Simblee_temperature	KEYWORD2
+attachPinInterrupt	KEYWORD2
+detachPinInterrupt	KEYWORD2
+lowPowerClockSource	KEYWORD2
+Simblee_resetReason	KEYWORD2
+Simblee_setWatchDogTimer	KEYWORD2
+Simblee_resetWatchDogTimer	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+INPUT_NOPULL	LITERAL1
+INPUT_PULLDOWN	LITERAL1
+OUTPUT_S0S1	LITERAL1
+OUTPUT_H0S1	LITERAL1
+OUTPUT_S0H1	LITERAL1
+OUTPUT_H0H1	LITERAL1
+OUTPUT_D0S1	LITERAL1
+OUTPUT_D0H1	LITERAL1
+OUTPUT_S0D1	LITERAL1
+OUTPUT_H0D1	LITERAL1
+
+DISABLE	LITERAL1
+
+MILLISECONDS	LITERAL1
+SECONDS	LITERAL1
+MINUTES	LITERAL1
+HOURS	LITERAL1
+DAYS	LITERAL1
+INFINITE	LITERAL1

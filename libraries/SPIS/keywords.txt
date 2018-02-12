@@ -1,0 +1,32 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SPIS	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin			KEYWORD2
+end				KEYWORD2
+setBitOrder	KEYWORD2
+setDataMode	KEYWORD2
+setCPOL	KEYWORD2
+setCPHA	KEYWORD2
+setBuffers	KEYWORD2
+setCS	KEYWORD2
+setSCK	KEYWORD2
+setMOSI	KEYWORD2
+setMISO	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+SPI_MODE0	LITERAL1
+SPI_MODE1	LITERAL1
+SPI_MODE2	LITERAL1
+SPI_MODE3	LITERAL1

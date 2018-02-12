@@ -1,0 +1,29 @@
+#!/bin/bash
+
+loader=$1
+port=$2
+build_path=$3
+build_project_name=$4
+base=$5
+toolchain=$6
+
+if [ 0 -eq 1 ]; then
+  $toolchain/arm-none-eabi-objdump -h -S $build_path/$build_project_name.elf >$build_path/$build_project_name.s
+  open $build_path
+fi
+
+$toolchain/arm-none-eabi-nm $build_path/$build_project_name.elf >$build_path/$build_project_name.syms
+
+files=$build_path/$build_project_name.hex
+
+grep -q "ota_bootloader_single_bank" $build_path/$build_project_name.syms
+if [ $? -eq 0 ]; then
+  files="$files $base/variants/Simblee/ota_bootloader_single_bank.hex"
+fi
+
+grep -q "ota_bootloader_dual_bank" $build_path/$build_project_name.syms
+if [ $? -eq 0 ]; then
+  files="$files $base/variants/Simblee/ota_bootloader_dual_bank.hex"
+fi
+
+$base/$loader -q $port $files

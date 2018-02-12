@@ -1,0 +1,30 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+SimbleeCOM	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+mode  KEYWORD2
+txPowerLevel    KEYWORD2
+
+getESN	KEYWORD2
+proximityMode   KEYWORD2
+
+begin	KEYWORD2
+end	KEYWORD2
+send	KEYWORD2
+startReceive	KEYWORD2
+stopReceive	KEYWORD2
+SimbleeCOM_onReceive	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+LOW_LATENCY LITERAL1
+LONG_RANGE	LITERAL1

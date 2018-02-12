@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1FD2861B2D3ECE00764C66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2851B2D3ECE00764C66 /* main.m */; };
+		AA1FD2891B2D3ECE00764C66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2881B2D3ECE00764C66 /* AppDelegate.m */; };
+		AA1FD2911B2D3ECE00764C66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1FD2901B2D3ECE00764C66 /* Images.xcassets */; };
+		AA1FD2B01B2D3F6800764C66 /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2AA1B2D3F6800764C66 /* AppViewController.m */; };
+		AA1FD2B11B2D3F6800764C66 /* AppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1FD2AB1B2D3F6800764C66 /* AppViewController.xib */; };
+		AA1FD2B51B2D3F6800764C66 /* thermometer.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1FD2AF1B2D3F6800764C66 /* thermometer.png */; };
+		AA1FD3001B2D3F9300764C66 /* CustomCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2B81B2D3F9300764C66 /* CustomCellBackground.m */; };
+		AA1FD3011B2D3F9300764C66 /* disconnect.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1FD2B91B2D3F9300764C66 /* disconnect.png */; };
+		AA1FD3021B2D3F9300764C66 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1FD2BB1B2D3F9300764C66 /* lock.png */; };
+		AA1FD3031B2D3F9300764C66 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2BF1B2D3F9300764C66 /* Utility.m */; };
+		AA1FD3041B2D3F9300764C66 /* BLEOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2C21B2D3F9300764C66 /* BLEOperations.m */; };
+		AA1FD3051B2D3F9300764C66 /* DFUHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2C41B2D3F9300764C66 /* DFUHelper.m */; };
+		AA1FD3061B2D3F9300764C66 /* DFUOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2C61B2D3F9300764C66 /* DFUOperations.m */; };
+		AA1FD3071B2D3F9300764C66 /* DFUOperationsDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2C81B2D3F9300764C66 /* DFUOperationsDetails.m */; };
+		AA1FD3081B2D3F9300764C66 /* FileOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2CA1B2D3F9300764C66 /* FileOperations.m */; };
+		AA1FD3091B2D3F9300764C66 /* AccessFileSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2CD1B2D3F9300764C66 /* AccessFileSystem.m */; };
+		AA1FD30A1B2D3F9300764C66 /* IntelHex2BinConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2D01B2D3F9300764C66 /* IntelHex2BinConverter.m */; };
+		AA1FD30B1B2D3F9300764C66 /* InitData.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2D31B2D3F9300764C66 /* InitData.m */; };
+		AA1FD30C1B2D3F9300764C66 /* JsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2D51B2D3F9300764C66 /* JsonParser.m */; };
+		AA1FD30D1B2D3F9300764C66 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1FD2D61B2D3F9300764C66 /* libz.dylib */; };
+		AA1FD30E1B2D3F9300764C66 /* OTABootloaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2D81B2D3F9300764C66 /* OTABootloaderViewController.m */; };
+		AA1FD30F1B2D3F9300764C66 /* OTABootloaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1FD2D91B2D3F9300764C66 /* OTABootloaderViewController.xib */; };
+		AA1FD3111B2D3F9300764C66 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2DF1B2D3F9300764C66 /* ioapi.c */; };
+		AA1FD3121B2D3F9300764C66 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2E11B2D3F9300764C66 /* mztools.c */; };
+		AA1FD3131B2D3F9300764C66 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2E31B2D3F9300764C66 /* unzip.c */; };
+		AA1FD3141B2D3F9300764C66 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2E51B2D3F9300764C66 /* zip.c */; };
+		AA1FD3151B2D3F9300764C66 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2E81B2D3F9300764C66 /* SSZipArchive.m */; };
+		AA1FD3161B2D3F9300764C66 /* UnzipFirmware.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2EA1B2D3F9300764C66 /* UnzipFirmware.m */; };
+		AA1FD3171B2D3F9300764C66 /* ReconnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2EC1B2D3F9300764C66 /* ReconnectViewController.m */; };
+		AA1FD3181B2D3F9300764C66 /* ReconnectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1FD2ED1B2D3F9300764C66 /* ReconnectViewController.xib */; };
+		AA1FD3191B2D3F9300764C66 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2EF1B2D3F9300764C66 /* ScanViewController.m */; };
+		AA1FD31A1B2D3F9300764C66 /* signal0.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1FD2F01B2D3F9300764C66 /* signal0.png */; };
+		AA1FD31B1B2D3F9300764C66 /* signal1.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1FD2F11B2D3F9300764C66 /* signal1.png */; };
+		AA1FD31C1B2D3F9300764C66 /* signal2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1FD2F21B2D3F9300764C66 /* signal2.png */; };
+		AA1FD31D1B2D3F9300764C66 /* signal3.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1FD2F31B2D3F9300764C66 /* signal3.png */; };
+		AA1FD3201B2D3F9300764C66 /* Simblee.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2F71B2D3F9300764C66 /* Simblee.m */; };
+		AA1FD3211B2D3F9300764C66 /* SimbleeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2FA1B2D3F9300764C66 /* SimbleeManager.m */; };
+		AA1FD3221B2D3F9300764C66 /* UIAlertViewBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2FC1B2D3F9300764C66 /* UIAlertViewBlock.m */; };
+		AA1FD3231B2D3F9300764C66 /* unlock.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1FD2FD1B2D3F9300764C66 /* unlock.png */; };
+		AA1FD3241B2D3F9300764C66 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FD2FF1B2D3F9300764C66 /* Util.m */; };
+		AA55F49C1B31D6B800C2F560 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA55F49B1B31D6B800C2F560 /* Settings.bundle */; };
+		AA55F49E1B31D6C800C2F560 /* DLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55F49D1B31D6C800C2F560 /* DLog.m */; };
+		AA55F4A01B31D6D900C2F560 /* Settings.save.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA55F49F1B31D6D900C2F560 /* Settings.save.bundle */; };
+		AAEF68131B2FC84C00991808 /* ScanViewRow.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEF68121B2FC84C00991808 /* ScanViewRow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA1FD2801B2D3ECE00764C66 /* simbleeTemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simbleeTemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1FD2841B2D3ECE00764C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA1FD2851B2D3ECE00764C66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA1FD2871B2D3ECE00764C66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA1FD2881B2D3ECE00764C66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA1FD2901B2D3ECE00764C66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA1FD2A91B2D3F6800764C66 /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
+		AA1FD2AA1B2D3F6800764C66 /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
+		AA1FD2AB1B2D3F6800764C66 /* AppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppViewController.xib; sourceTree = "<group>"; };
+		AA1FD2AF1B2D3F6800764C66 /* thermometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thermometer.png; sourceTree = "<group>"; };
+		AA1FD2B71B2D3F9300764C66 /* CustomCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellBackground.h; sourceTree = "<group>"; };
+		AA1FD2B81B2D3F9300764C66 /* CustomCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellBackground.m; sourceTree = "<group>"; };
+		AA1FD2B91B2D3F9300764C66 /* disconnect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disconnect.png; sourceTree = "<group>"; };
+		AA1FD2BA1B2D3F9300764C66 /* DLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLog.h; sourceTree = "<group>"; };
+		AA1FD2BB1B2D3F9300764C66 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		AA1FD2BE1B2D3F9300764C66 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		AA1FD2BF1B2D3F9300764C66 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		AA1FD2C11B2D3F9300764C66 /* BLEOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEOperations.h; sourceTree = "<group>"; };
+		AA1FD2C21B2D3F9300764C66 /* BLEOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEOperations.m; sourceTree = "<group>"; };
+		AA1FD2C31B2D3F9300764C66 /* DFUHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFUHelper.h; sourceTree = "<group>"; };
+		AA1FD2C41B2D3F9300764C66 /* DFUHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFUHelper.m; sourceTree = "<group>"; };
+		AA1FD2C51B2D3F9300764C66 /* DFUOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFUOperations.h; sourceTree = "<group>"; };
+		AA1FD2C61B2D3F9300764C66 /* DFUOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFUOperations.m; sourceTree = "<group>"; };
+		AA1FD2C71B2D3F9300764C66 /* DFUOperationsDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFUOperationsDetails.h; sourceTree = "<group>"; };
+		AA1FD2C81B2D3F9300764C66 /* DFUOperationsDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFUOperationsDetails.m; sourceTree = "<group>"; };
+		AA1FD2C91B2D3F9300764C66 /* FileOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileOperations.h; sourceTree = "<group>"; };
+		AA1FD2CA1B2D3F9300764C66 /* FileOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileOperations.m; sourceTree = "<group>"; };
+		AA1FD2CC1B2D3F9300764C66 /* AccessFileSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessFileSystem.h; sourceTree = "<group>"; };
+		AA1FD2CD1B2D3F9300764C66 /* AccessFileSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessFileSystem.m; sourceTree = "<group>"; };
+		AA1FD2CF1B2D3F9300764C66 /* IntelHex2BinConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntelHex2BinConverter.h; sourceTree = "<group>"; };
+		AA1FD2D01B2D3F9300764C66 /* IntelHex2BinConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntelHex2BinConverter.m; sourceTree = "<group>"; };
+		AA1FD2D21B2D3F9300764C66 /* InitData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitData.h; sourceTree = "<group>"; };
+		AA1FD2D31B2D3F9300764C66 /* InitData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitData.m; sourceTree = "<group>"; };
+		AA1FD2D41B2D3F9300764C66 /* JsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParser.h; sourceTree = "<group>"; };
+		AA1FD2D51B2D3F9300764C66 /* JsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonParser.m; sourceTree = "<group>"; };
+		AA1FD2D61B2D3F9300764C66 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libz.dylib; sourceTree = "<group>"; };
+		AA1FD2D71B2D3F9300764C66 /* OTABootloaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTABootloaderViewController.h; sourceTree = "<group>"; };
+		AA1FD2D81B2D3F9300764C66 /* OTABootloaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTABootloaderViewController.m; sourceTree = "<group>"; };
+		AA1FD2D91B2D3F9300764C66 /* OTABootloaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OTABootloaderViewController.xib; sourceTree = "<group>"; };
+		AA1FD2DE1B2D3F9300764C66 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		AA1FD2DF1B2D3F9300764C66 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		AA1FD2E01B2D3F9300764C66 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		AA1FD2E11B2D3F9300764C66 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		AA1FD2E21B2D3F9300764C66 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		AA1FD2E31B2D3F9300764C66 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		AA1FD2E41B2D3F9300764C66 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		AA1FD2E51B2D3F9300764C66 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		AA1FD2E61B2D3F9300764C66 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		AA1FD2E71B2D3F9300764C66 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		AA1FD2E81B2D3F9300764C66 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		AA1FD2E91B2D3F9300764C66 /* UnzipFirmware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnzipFirmware.h; sourceTree = "<group>"; };
+		AA1FD2EA1B2D3F9300764C66 /* UnzipFirmware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnzipFirmware.m; sourceTree = "<group>"; };
+		AA1FD2EB1B2D3F9300764C66 /* ReconnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReconnectViewController.h; sourceTree = "<group>"; };
+		AA1FD2EC1B2D3F9300764C66 /* ReconnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReconnectViewController.m; sourceTree = "<group>"; };
+		AA1FD2ED1B2D3F9300764C66 /* ReconnectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReconnectViewController.xib; sourceTree = "<group>"; };
+		AA1FD2EE1B2D3F9300764C66 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		AA1FD2EF1B2D3F9300764C66 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		AA1FD2F01B2D3F9300764C66 /* signal0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signal0.png; sourceTree = "<group>"; };
+		AA1FD2F11B2D3F9300764C66 /* signal1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signal1.png; sourceTree = "<group>"; };
+		AA1FD2F21B2D3F9300764C66 /* signal2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signal2.png; sourceTree = "<group>"; };
+		AA1FD2F31B2D3F9300764C66 /* signal3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signal3.png; sourceTree = "<group>"; };
+		AA1FD2F61B2D3F9300764C66 /* Simblee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Simblee.h; sourceTree = "<group>"; };
+		AA1FD2F71B2D3F9300764C66 /* Simblee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Simblee.m; sourceTree = "<group>"; };
+		AA1FD2F81B2D3F9300764C66 /* SimbleeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimbleeDelegate.h; sourceTree = "<group>"; };
+		AA1FD2F91B2D3F9300764C66 /* SimbleeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimbleeManager.h; sourceTree = "<group>"; };
+		AA1FD2FA1B2D3F9300764C66 /* SimbleeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimbleeManager.m; sourceTree = "<group>"; };
+		AA1FD2FB1B2D3F9300764C66 /* UIAlertViewBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAlertViewBlock.h; sourceTree = "<group>"; };
+		AA1FD2FC1B2D3F9300764C66 /* UIAlertViewBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertViewBlock.m; sourceTree = "<group>"; };
+		AA1FD2FD1B2D3F9300764C66 /* unlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unlock.png; sourceTree = "<group>"; };
+		AA1FD2FE1B2D3F9300764C66 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		AA1FD2FF1B2D3F9300764C66 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		AA55F49B1B31D6B800C2F560 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		AA55F49D1B31D6C800C2F560 /* DLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLog.m; sourceTree = "<group>"; };
+		AA55F49F1B31D6D900C2F560 /* Settings.save.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.save.bundle; sourceTree = "<group>"; };
+		AAEF68111B2FC84C00991808 /* ScanViewRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewRow.h; sourceTree = "<group>"; };
+		AAEF68121B2FC84C00991808 /* ScanViewRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewRow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA1FD27D1B2D3ECE00764C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1FD30D1B2D3F9300764C66 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA1FD2771B2D3ECE00764C66 = {
+			isa = PBXGroup;
+			children = (
+				AA1FD2B61B2D3F9300764C66 /* simblee */,
+				AA1FD2821B2D3ECE00764C66 /* simbleeTemp */,
+				AA1FD2811B2D3ECE00764C66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA1FD2811B2D3ECE00764C66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FD2801B2D3ECE00764C66 /* simbleeTemp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA1FD2821B2D3ECE00764C66 /* simbleeTemp */ = {
+			isa = PBXGroup;
+			children = (
+				AA55F49B1B31D6B800C2F560 /* Settings.bundle */,
+				AA1FD2AF1B2D3F6800764C66 /* thermometer.png */,
+				AA1FD2871B2D3ECE00764C66 /* AppDelegate.h */,
+				AA1FD2881B2D3ECE00764C66 /* AppDelegate.m */,
+				AA1FD2A91B2D3F6800764C66 /* AppViewController.h */,
+				AA1FD2AA1B2D3F6800764C66 /* AppViewController.m */,
+				AA1FD2AB1B2D3F6800764C66 /* AppViewController.xib */,
+				AA1FD2901B2D3ECE00764C66 /* Images.xcassets */,
+				AA1FD2831B2D3ECE00764C66 /* Supporting Files */,
+			);
+			path = simbleeTemp;
+			sourceTree = "<group>";
+		};
+		AA1FD2831B2D3ECE00764C66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FD2841B2D3ECE00764C66 /* Info.plist */,
+				AA1FD2851B2D3ECE00764C66 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA1FD2B61B2D3F9300764C66 /* simblee */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FD2BC1B2D3F9300764C66 /* OTA Bootloader */,
+				AA1FD2F01B2D3F9300764C66 /* signal0.png */,
+				AA1FD2F11B2D3F9300764C66 /* signal1.png */,
+				AA1FD2F21B2D3F9300764C66 /* signal2.png */,
+				AA1FD2F31B2D3F9300764C66 /* signal3.png */,
+				AA1FD2B91B2D3F9300764C66 /* disconnect.png */,
+				AA1FD2BB1B2D3F9300764C66 /* lock.png */,
+				AA1FD2FD1B2D3F9300764C66 /* unlock.png */,
+				AA1FD2BA1B2D3F9300764C66 /* DLog.h */,
+				AA55F49D1B31D6C800C2F560 /* DLog.m */,
+				AA1FD2FE1B2D3F9300764C66 /* Util.h */,
+				AA1FD2FF1B2D3F9300764C66 /* Util.m */,
+				AA1FD2B71B2D3F9300764C66 /* CustomCellBackground.h */,
+				AA1FD2B81B2D3F9300764C66 /* CustomCellBackground.m */,
+				AA1FD2FB1B2D3F9300764C66 /* UIAlertViewBlock.h */,
+				AA1FD2FC1B2D3F9300764C66 /* UIAlertViewBlock.m */,
+				AA1FD2F61B2D3F9300764C66 /* Simblee.h */,
+				AA1FD2F71B2D3F9300764C66 /* Simblee.m */,
+				AA1FD2F81B2D3F9300764C66 /* SimbleeDelegate.h */,
+				AA1FD2F91B2D3F9300764C66 /* SimbleeManager.h */,
+				AA1FD2FA1B2D3F9300764C66 /* SimbleeManager.m */,
+				AAEF68111B2FC84C00991808 /* ScanViewRow.h */,
+				AAEF68121B2FC84C00991808 /* ScanViewRow.m */,
+				AA1FD2EE1B2D3F9300764C66 /* ScanViewController.h */,
+				AA1FD2EF1B2D3F9300764C66 /* ScanViewController.m */,
+				AA1FD2EB1B2D3F9300764C66 /* ReconnectViewController.h */,
+				AA1FD2EC1B2D3F9300764C66 /* ReconnectViewController.m */,
+				AA1FD2ED1B2D3F9300764C66 /* ReconnectViewController.xib */,
+			);
+			name = simblee;
+			path = ../simblee;
+			sourceTree = "<group>";
+		};
+		AA1FD2BC1B2D3F9300764C66 /* OTA Bootloader */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FD2BD1B2D3F9300764C66 /* Constants */,
+				AA1FD2C01B2D3F9300764C66 /* DFU Implementation */,
+				AA1FD2CB1B2D3F9300764C66 /* File Selection */,
+				AA1FD2CE1B2D3F9300764C66 /* Hex to Bin Converter */,
+				AA1FD2D11B2D3F9300764C66 /* JSON Parser */,
+				AA1FD2D61B2D3F9300764C66 /* libz.dylib */,
+				AA1FD2D71B2D3F9300764C66 /* OTABootloaderViewController.h */,
+				AA1FD2D81B2D3F9300764C66 /* OTABootloaderViewController.m */,
+				AA1FD2D91B2D3F9300764C66 /* OTABootloaderViewController.xib */,
+				AA55F49F1B31D6D900C2F560 /* Settings.save.bundle */,
+				AA1FD2DB1B2D3F9300764C66 /* Unzip */,
+			);
+			path = "OTA Bootloader";
+			sourceTree = "<group>";
+		};
+		AA1FD2BD1B2D3F9300764C66 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FD2BE1B2D3F9300764C66 /* Utility.h */,
+				AA1FD2BF1B2D3F9300764C66 /* Utility.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		AA1FD2C01B2D3F9300764C66 /* DFU Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FD2C11B2D3F9300764C66 /* BLEOperations.h */,
+				AA1FD2C21B2D3F9300764C66 /* BLEOperations.m */,
+				AA1FD2C31B2D3F9300764C66 /* DFUHelper.h */,
+				AA1FD2C41B2D3F9300764C66 /* DFUHelper.m */,
+				AA1FD2C51B2D3F9300764C66 /* DFUOperations.h */,
+				AA1FD2C61B2D3F9300764C66 /* DFUOperations.m */,
+				AA1FD2C71B2D3F9300764C66 /* DFUOperationsDetails.h */,
+				AA1FD2C81B2D3F9300764C66 /* DFUOperationsDetails.m */,
+				AA1FD2C91B2D3F9300764C66 /* FileOperations.h */,
+				AA1FD2CA1B2D3F9300764C66 /* FileOperations.m */,
+			);
+			path = "DFU Implementation";
+			sourceTree = "<group>";
+		};
+		AA1FD2CB1B2D3F9300764C66 /* File Selection */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FD2CC1B2D3F9300764C66 /* AccessFileSystem.h */,
+				AA1FD2CD1B2D3F9300764C66 /* AccessFileSystem.m */,
+			);
+			path = "File Selection";
+			sourceTree = "<group>";
+		};
+		AA1FD2CE1B2D3F9300764C66 /* Hex to Bin Converter */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FD2CF1B2D3F9300764C66 /* IntelHex2BinConverter.h */,
+				AA1FD2D01B2D3F9300764C66 /* IntelHex2BinConverter.m */,
+			);
+			path = "Hex to Bin Converter";
+			sourceTree = "<group>";
+		};
+		AA1FD2D11B2D3F9300764C66 /* JSON Parser */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FD2D21B2D3F9300764C66 /* InitData.h */,
+				AA1FD2D31B2D3F9300764C66 /* InitData.m */,
+				AA1FD2D41B2D3F9300764C66 /* JsonParser.h */,
+				AA1FD2D51B2D3F9300764C66 /* JsonParser.m */,
+			);
+			path = "JSON Parser";
+			sourceTree = "<group>";
+		};
+		AA1FD2DB1B2D3F9300764C66 /* Unzip */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FD2DC1B2D3F9300764C66 /* SSZipArchive */,
+				AA1FD2E91B2D3F9300764C66 /* UnzipFirmware.h */,
+				AA1FD2EA1B2D3F9300764C66 /* UnzipFirmware.m */,
+			);
+			path = Unzip;
+			sourceTree = "<group>";
+		};
+		AA1FD2DC1B2D3F9300764C66 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FD2DD1B2D3F9300764C66 /* minizip */,
+				AA1FD2E71B2D3F9300764C66 /* SSZipArchive.h */,
+				AA1FD2E81B2D3F9300764C66 /* SSZipArchive.m */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		AA1FD2DD1B2D3F9300764C66 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FD2DE1B2D3F9300764C66 /* crypt.h */,
+				AA1FD2DF1B2D3F9300764C66 /* ioapi.c */,
+				AA1FD2E01B2D3F9300764C66 /* ioapi.h */,
+				AA1FD2E11B2D3F9300764C66 /* mztools.c */,
+				AA1FD2E21B2D3F9300764C66 /* mztools.h */,
+				AA1FD2E31B2D3F9300764C66 /* unzip.c */,
+				AA1FD2E41B2D3F9300764C66 /* unzip.h */,
+				AA1FD2E51B2D3F9300764C66 /* zip.c */,
+				AA1FD2E61B2D3F9300764C66 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA1FD27F1B2D3ECE00764C66 /* simbleeTemp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1FD2A31B2D3ECE00764C66 /* Build configuration list for PBXNativeTarget "simbleeTemp" */;
+			buildPhases = (
+				AA1FD27C1B2D3ECE00764C66 /* Sources */,
+				AA1FD27D1B2D3ECE00764C66 /* Frameworks */,
+				AA1FD27E1B2D3ECE00764C66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simbleeTemp;
+			productName = simbleeTemp;
+			productReference = AA1FD2801B2D3ECE00764C66 /* simbleeTemp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA1FD2781B2D3ECE00764C66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "RF Digital Corp";
+				TargetAttributes = {
+					AA1FD27F1B2D3ECE00764C66 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 39F27B5S62;
+					};
+				};
+			};
+			buildConfigurationList = AA1FD27B1B2D3ECE00764C66 /* Build configuration list for PBXProject "simbleeTemp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA1FD2771B2D3ECE00764C66;
+			productRefGroup = AA1FD2811B2D3ECE00764C66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA1FD27F1B2D3ECE00764C66 /* simbleeTemp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA1FD27E1B2D3ECE00764C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1FD31A1B2D3F9300764C66 /* signal0.png in Resources */,
+				AA55F4A01B31D6D900C2F560 /* Settings.save.bundle in Resources */,
+				AA1FD3181B2D3F9300764C66 /* ReconnectViewController.xib in Resources */,
+				AA1FD2B51B2D3F6800764C66 /* thermometer.png in Resources */,
+				AA1FD3021B2D3F9300764C66 /* lock.png in Resources */,
+				AA1FD3231B2D3F9300764C66 /* unlock.png in Resources */,
+				AA1FD30F1B2D3F9300764C66 /* OTABootloaderViewController.xib in Resources */,
+				AA1FD31B1B2D3F9300764C66 /* signal1.png in Resources */,
+				AA1FD3011B2D3F9300764C66 /* disconnect.png in Resources */,
+				AA55F49C1B31D6B800C2F560 /* Settings.bundle in Resources */,
+				AA1FD2B11B2D3F6800764C66 /* AppViewController.xib in Resources */,
+				AA1FD31C1B2D3F9300764C66 /* signal2.png in Resources */,
+				AA1FD2911B2D3ECE00764C66 /* Images.xcassets in Resources */,
+				AA1FD31D1B2D3F9300764C66 /* signal3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA1FD27C1B2D3ECE00764C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1FD3171B2D3F9300764C66 /* ReconnectViewController.m in Sources */,
+				AA1FD3161B2D3F9300764C66 /* UnzipFirmware.m in Sources */,
+				AA1FD3131B2D3F9300764C66 /* unzip.c in Sources */,
+				AA1FD3091B2D3F9300764C66 /* AccessFileSystem.m in Sources */,
+				AA1FD3001B2D3F9300764C66 /* CustomCellBackground.m in Sources */,
+				AA1FD3201B2D3F9300764C66 /* Simblee.m in Sources */,
+				AA1FD3081B2D3F9300764C66 /* FileOperations.m in Sources */,
+				AA1FD3221B2D3F9300764C66 /* UIAlertViewBlock.m in Sources */,
+				AA1FD3071B2D3F9300764C66 /* DFUOperationsDetails.m in Sources */,
+				AA1FD3051B2D3F9300764C66 /* DFUHelper.m in Sources */,
+				AA1FD3141B2D3F9300764C66 /* zip.c in Sources */,
+				AA1FD3041B2D3F9300764C66 /* BLEOperations.m in Sources */,
+				AA1FD30C1B2D3F9300764C66 /* JsonParser.m in Sources */,
+				AA1FD3121B2D3F9300764C66 /* mztools.c in Sources */,
+				AA1FD2891B2D3ECE00764C66 /* AppDelegate.m in Sources */,
+				AA1FD3031B2D3F9300764C66 /* Utility.m in Sources */,
+				AA1FD30B1B2D3F9300764C66 /* InitData.m in Sources */,
+				AA1FD3241B2D3F9300764C66 /* Util.m in Sources */,
+				AA1FD3111B2D3F9300764C66 /* ioapi.c in Sources */,
+				AA1FD3061B2D3F9300764C66 /* DFUOperations.m in Sources */,
+				AA1FD30E1B2D3F9300764C66 /* OTABootloaderViewController.m in Sources */,
+				AA1FD3211B2D3F9300764C66 /* SimbleeManager.m in Sources */,
+				AA1FD3191B2D3F9300764C66 /* ScanViewController.m in Sources */,
+				AA1FD3151B2D3F9300764C66 /* SSZipArchive.m in Sources */,
+				AAEF68131B2FC84C00991808 /* ScanViewRow.m in Sources */,
+				AA55F49E1B31D6C800C2F560 /* DLog.m in Sources */,
+				AA1FD2B01B2D3F6800764C66 /* AppViewController.m in Sources */,
+				AA1FD30A1B2D3F9300764C66 /* IntelHex2BinConverter.m in Sources */,
+				AA1FD2861B2D3ECE00764C66 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA1FD2A11B2D3ECE00764C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA1FD2A21B2D3ECE00764C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA1FD2A41B2D3ECE00764C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = simbleeTemp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Simblee.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA1FD2A51B2D3ECE00764C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = simbleeTemp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Simblee.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA1FD27B1B2D3ECE00764C66 /* Build configuration list for PBXProject "simbleeTemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1FD2A11B2D3ECE00764C66 /* Debug */,
+				AA1FD2A21B2D3ECE00764C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1FD2A31B2D3ECE00764C66 /* Build configuration list for PBXNativeTarget "simbleeTemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1FD2A41B2D3ECE00764C66 /* Debug */,
+				AA1FD2A51B2D3ECE00764C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA1FD2781B2D3ECE00764C66 /* Project object */;
+}

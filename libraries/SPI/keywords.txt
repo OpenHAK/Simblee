@@ -1,0 +1,40 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SPI	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin			KEYWORD2
+end				KEYWORD2
+transfer		KEYWORD2
+transfer16	KEYWORD2
+usingInterrupt	KEYWORD2
+notUsingInterrupt	KEYWORD2
+beginTransaction	KEYWORD2
+endTransaction	KEYWORD2
+setBitOrder	KEYWORD2
+setDataMode	KEYWORD2
+setFrequency	KEYWORD2
+setClockDivider	KEYWORD@
+setCPOL	KEYWORD2
+setCPHA	KEYWORD2
+attachInterrupt	KEYWORD2
+detachInterrput	KEYWORD2
+setSCK	KEYWORD2
+setMOSI	KEYWORD2
+setMISO	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+SPI_MODE0	LITERAL1
+SPI_MODE1	LITERAL1
+SPI_MODE2	LITERAL1
+SPI_MODE3	LITERAL1

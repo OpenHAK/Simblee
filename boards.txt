@@ -1,0 +1,23 @@
+
+Simblee.name=Simblee
+Simblee.build.board=SIMBLEE
+Simblee.build.mcu=cortex-m0
+Simblee.build.f_cpu=16000000
+Simblee.build.core=arduino
+Simblee.build.extra_flags=-mthumb -D__Simblee__
+Simblee.build.ldscript=linker_scripts/gcc/Simblee.ld
+Simblee.build.variant=Simblee
+Simblee.build.variant_system_include="-I{build.system.path}/Simblee" "-I{build.system.path}/Simblee/include" "-I{build.system.path}/CMSIS/CMSIS/Include"
+Simblee.build.variant_system_lib=libSimbleeSystem.a
+#Simblee.build.extra_flags=-DUSB_PID={build.pid} -DUSB_VID={build.vid} -DUSBCON
+#Simblee.build.vid=0x2341
+#Simblee.build.vid=0x003e
+
+Simblee.upload.tool=RFDLoader
+
+# required to avoid arduino ide exception on upload
+Simblee.upload.protocol=
+
+# sizer will not run if this is not defined
+# 128KB
+Simblee.upload.maximum_size=131072

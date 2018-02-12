@@ -1,0 +1,25 @@
+########################################################
+# Syntax Coloring Map for Simblee ToF Library #
+########################################################
+# Class
+###################################################################
+
+SimbleeToF	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin KEYWORD2
+tof_simple_measurement	KEYWORD2
+tof_measurement	KEYWORD2
+tof_measurement_avg	KEYWORD2
+multipoint_tof_simple_measurement KEYWORD2
+multipoint_tof_measurement KEYWORD2
+loadCalibration KEYWORD2
+calibration KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
