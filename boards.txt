@@ -1,5 +1,5 @@
 
-Simblee.name=Simblee
+Simblee.name=OpenHAK
 Simblee.build.board=SIMBLEE
 Simblee.build.mcu=cortex-m0
 Simblee.build.f_cpu=16000000
