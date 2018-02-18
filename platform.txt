@@ -8,7 +8,7 @@
 #   {build.path}/{archive_file} => {archive_file_path}
 #   {build.path}/syscalls.c.o => {build.path}/core/syscalls.c.o
 
-name=Simblee Boards
+name=OpenHAK Boards
 # version=1.0.0
 
 compiler.path={runtime.tools.arm-none-eabi-gcc.path}/bin/
