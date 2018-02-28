@@ -1,3 +1,8 @@
+# Below is the original Simblee README. We have modified code in this repo for use with OpenHAK.Please go to the [Getting Started With Arduino](https://github.com/OpenHAK/Docs/blob/master/Getting%20Started%20With%20Arduino.md) page.
+
+-------
+
+
 # RFduino: An Arduino shrunk to the size of a finger-tip and made wireless!
 
 # Simblee: IoT for connecting Everyone and Everything IoT4EE
