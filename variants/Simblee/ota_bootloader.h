@@ -19,7 +19,7 @@
 #include "Arduino.h"
 
 #ifndef OTA_BOOTLOADER_TYPE
-#define  OTA_BOOTLOADER_TYPE  dual_bank
+#define  OTA_BOOTLOADER_TYPE  single_bank  //  dual_bank
 #endif
 
 // force double expansion
