@@ -12,10 +12,10 @@
             {
                "name": "OpenHAK Boards",
                "architecture": "Simblee",
-               "version": "1.1.4",
+               "version": "1.2.0",
                "category": "Arduino",
                "url": "https://github.com/OpenHAK/Simblee/releases/download/1.1.4/openhak_114.tar.gz",
-               "archiveFileName": "openhak_114.tar.gz",
+               "archiveFileName": "openhak_120.tar.gz",
                "checksum": "SHA-256:f4cfac6ceeb5b201d54b3fbc12d07823f205dd7dd62b6ba92b600bf278fa775f",
                "size": "51571384",
                "help":{
